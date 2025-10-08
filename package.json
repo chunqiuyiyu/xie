@@ -1,13 +1,13 @@
 {
   "name": "xie",
   "version": "1.0.0",
-  "description": "A simple wiki application",
+  "description": "A 9KB (3KB gzip) single HTML notebook, perfect for minimalists.",
   "main": "src/main.js",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build"
   },
-  "private": true,
+  "license": "MIT",
   "devDependencies": {
     "vite": "^7.1.7",
     "vite-plugin-html": "^3.2.2",

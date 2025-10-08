@@ -11,10 +11,6 @@ textarea {
   min-height: 10lh;
 }
 
-#archive {
-  display: initial;
-}
-
 #archive li a,
 header h1 a {
   text-decoration: none;

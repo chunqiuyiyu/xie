@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Xie</title>
+    <link rel="stylesheet" href="styles/neat.css" />
+    <link rel="stylesheet" href="styles/custom.css" />
+  </head>
+  <body>
+    <header class="breathe">
+      <h1><a href="#archive">Xie</a></h1>
+      <blockquote>A simple wiki application</blockquote>
+      <p>Just write.</p>
+
+      <p>
+        <button id="save">Save</button>
+        <a href="#new" id="btnNew">New</a>
+      </p>
+    </header>
+
+    <main>
+      <section id="archive">
+        <ul></ul>
+      </section>
+    </main>
+
+    <section id="new">
+      <p>
+        <label for="title" class="row"
+          ><input id="title" type="text" placeholder="Title"
+        /></label>
+      </p>
+
+      <p>
+        <label for="story" class="row">
+          <textarea id="story" placeholder="Your story..."></textarea>
+        </label>
+      </p>
+
+      <button id="publish">Publish</button>
+    </section>
+
+    <aside popover id="toast"></aside>
+    <footer>
+      <p style="float: right">
+        ©2025 built with Xie<time id="buildTime"></time>
+      </p>
+    </footer>
+
+    <script type="module" defer src="src/main.js"></script>
+  </body>
+</html>

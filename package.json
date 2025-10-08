@@ -1,0 +1,20 @@
+{
+  "name": "xie",
+  "version": "1.0.0",
+  "description": "A simple wiki application",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "private": true,
+  "devDependencies": {
+    "vite": "^7.1.7",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-singlefile": "^2.3.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}

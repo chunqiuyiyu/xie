@@ -1,0 +1,42 @@
+section {
+  display: none;
+}
+
+section:target {
+  display: initial;
+}
+
+textarea {
+  field-sizing: content;
+  min-height: 10lh;
+}
+
+#archive li a,
+header h1 a {
+  text-decoration: none;
+}
+
+#archive li a:hover,
+header h1 a:hover {
+  text-decoration: underline;
+}
+
+#archive ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#archive li {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+#archive li a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#archive li time {
+  color: gray;
+  margin-left: 0.5rem;
+}

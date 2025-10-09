@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const elTitle = document.querySelector('#title')
     const elStory = document.querySelector('#story')
 
-    const title = elTitle?.value
+    const title = elTitle?.value.trim()
     const story = elStory?.value
     if (!title) {
       elToast.textContent = 'Title is required.'

@@ -10,6 +10,13 @@ import {
 import { md } from './md'
 
 document.addEventListener('DOMContentLoaded', () => {
+  // default nav to archive
+  if (location.hash === '' || location.hash === '#') {
+    const el = document.createElement('a')
+    el.href = '#archive'
+    simAnchorClick(el)
+  }
+
   // add new post
   const newBtn = document.querySelector('#btnNew')
   newBtn.addEventListener('click', () => {
